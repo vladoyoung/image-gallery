@@ -12,7 +12,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Demo example video: https://vlad-image-gallery.netlify.app/app_screenrecord.mp4
+https://github.com/vladoyoung/image-gallery/assets/9999658/cf421366-e3e5-4c44-8caf-0fedec16bfe6
+<br/>
+The video url on the server: https://vlad-image-gallery.netlify.app/app_screenrecord.mp4
 
 This project is a part of a programming task for a job application, which I will treat as a personal project and will extend further. The task was to build a simple image gallery web app with the following requirements:
 
