@@ -5,12 +5,14 @@
   <p align="center">
       A simple image gallery web app built with Firebase realtime, TypeScript, React, Vite, and Tailwind CSS/DaisyUI, and deployed with Netlify.
     <br />
-    <a href="/">View Demo</a>
+    <a href="https://vlad-image-gallery.netlify.app/">View Demo</a>
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+Demo example video: https://vlad-image-gallery.netlify.app/app_screenrecord.mp4
 
 This project is a part of a programming task for a job application, which I will treat as a personal project and will extend further. The task was to build a simple image gallery web app with the following requirements:
 
@@ -55,6 +57,14 @@ Keep in mind that the API keys and credentials for Firebase will be in an `.env`
    npm run preview
    ```
 
+Or you can use the dev enviroment with hot reload:
+   ```sh
+   npm run dev
+   ```
+
+You can additionally add  `-- --host` to the `npm run dev` command to view the project on your local network.
+
+You will get a localhost links in the terminal in all cases.
 
 <!-- ROADMAP -->
 ## Roadmap
