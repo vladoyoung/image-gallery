@@ -7,7 +7,7 @@ import { useAuth } from "./useAuth";
 
 function useStorage() {
   const [progress, setProgress] = useState<number>(0);
-  const [successMessage, setSuccessMessage] = useState<string>("");
+  const [successMessage, setSuccessMessage] = useState<string | null>("");
   const [error, setError] = useState<Error | null>(null);
   const { user } = useAuth()
 
@@ -24,6 +24,14 @@ function useStorage() {
     // allow only jpeg, jpg and png files
     if (fileFormat !== 'jpeg' && fileFormat !== 'jpg' && fileFormat !== 'png') {
         setError(new Error('Only jpeg and png files are allowed.'))
+        setSuccessMessage(null);
+        return
+    }
+
+    // allow max filesize of 2MB
+    if (file.size > 2 * 1024 * 1024) {
+        setError(new Error('File size must be less than 2MB.'))
+        setSuccessMessage(null);
         return
     }
 

@@ -48,7 +48,7 @@ function UploadForm() {
           <form className='flex md:flex-row flex-col items-start sm:gap-4 gap-2' onSubmit={handleSubmit}>
             <div>
               <input type="file" className="file-input file-input-bordered w-full" onChange={handleFileChange}/>
-              <label className="label label-text" htmlFor="file">Choose a file, only PNG, JPEG, JPG allowed.</label>
+              <label className="label label-text" htmlFor="file">Choose a file, only PNG, JPEG, JPG allowed. <br/> Max 2MB filesize</label>
             </div>
             <button className={`btn btn-primary`} disabled={!selectedFile}>
               <span className={`${progress ? 'loading inline' : 'hidden'}`}></span>
