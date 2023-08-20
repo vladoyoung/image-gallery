@@ -5,14 +5,14 @@
   <p align="center">
       A simple image gallery web app built with Firebase realtime, TypeScript, React, Vite, and Tailwind CSS/DaisyUI, and deployed with Netlify.
     <br />
-    <a href="https://vlad-image-gallery.netlify.app/">View Demo</a>
+    <a href="https://vlad-image-gallery.netlify.app/" target="_blank">View Demo</a>
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-https://github.com/vladoyoung/image-gallery/assets/9999658/cf421366-e3e5-4c44-8caf-0fedec16bfe6
+<video src"https://github.com/vladoyoung/image-gallery/assets/9999658/cf421366-e3e5-4c44-8caf-0fedec16bfe6" width=400/>
 <br/>
 The video url on the server: https://vlad-image-gallery.netlify.app/app_screenrecord.mp4
 
@@ -95,5 +95,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 List of  resources I found helpful and would like to give credit to.
 
-* [Cand Dev - Full Stack Image Gallery App Tutorial](https://youtu.be/7mUnGh4XRek)
-* [usePaginateCollection by ImJustChew](https://github.com/ImJustChew/usePaginateCollection)
+* <a href="https://youtu.be/7mUnGh4XRek" target="_blank">Cand Dev - Full Stack Image Gallery App Tutorial</a>
+* <a href="https://github.com/ImJustChew/usePaginateCollection" target="_blank">usePaginateCollection by ImJustChew</a>
