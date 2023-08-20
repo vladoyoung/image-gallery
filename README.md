@@ -12,11 +12,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<video src"https://github.com/vladoyoung/image-gallery/assets/9999658/cf421366-e3e5-4c44-8caf-0fedec16bfe6" width=400/>
-<br/>
-The video url on the server: https://vlad-image-gallery.netlify.app/app_screenrecord.mp4
+https://github.com/vladoyoung/image-gallery/assets/9999658/cf421366-e3e5-4c44-8caf-0fedec16bfe6
+
+or the video url on the server: https://vlad-image-gallery.netlify.app/app_screenrecord.mp4
 
 This project is a part of a programming task for a job application, which I will treat as a personal project and will extend further. The task was to build a simple image gallery web app with the following requirements:
+
 
 * It should be able to handle a large amount of images seamlessly, but currently I've built it with less than 20 minutes so I don't exhaust my Firebase usage.
 * The app should have CRUD functionality. Showcase for this is adding, deleting and updating images data.
